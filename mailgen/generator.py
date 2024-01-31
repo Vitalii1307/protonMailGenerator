@@ -99,7 +99,7 @@ def randomize(
 
 # Username
 _username_=randomize('-s',5)+randomize('-s',5)+randomize('-s',5)
-pyautogui.typewrite(_username_ + '\t\t')
+pyautogui.typewrite(_username_ + '\t\t\t')
 print("Username:" + _username_)
 
 # Password
